@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="file.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider</title>
+  <link rel="stylesheet" href="Style1102.css">
+</head>
+<div class="sliders main">
+   <div class="slider">
+      <input type="radio" name="slide" id="r1" checked>
+      <input type="radio" name="slide" id="r2">
+      <input type="radio" name="slide" id="r3">
+      <input type="radio" name="slide" id="r4">
+     
+      <div class="slide_img s1">
+         <img src="Zabuza.png" alt="" class="img">
+      </div>
+      <div class="slide_img s2 ">
+         <img src="Pain.png" alt="" class="img">
+      </div>
+      <div class="slide_img s3">
+         <img src="Kakashi.png" alt="" class="img">
+      </div>
+      <div class="slide_img s4">
+         <img src="Uchihas.png" alt="" class="img">
+      </div>
+   </div>
+
+   <div class="btn">
+     	<label for="r1" class="bar"></label>
+     	<label for="r2" class="bar"></label>
+     	<label for="r3" class="bar"></label>
+     	<label for="r4" class="bar"></label>
+     </div>
+</div>
